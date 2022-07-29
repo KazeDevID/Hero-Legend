@@ -1,0 +1,133 @@
+Release - V1.00
+Added:
+	[Characters]
+	(Wizard) HP: 75, Mana: 125, Primary Attack: Melee, Secondary Attack: Punch
+	(Knight) HP: 125, Mana: 75, Primary Attack: Melee, Secondary Attack: Punch
+	(Archer) HP: 100, Mana: 100, Primary Attack: Melee, Secondary Attack: Punch
+
+	[Attacks]
+	(Melee) Damage: 25, Mana Cost: 0
+	(Punch) Damage: 25, Mana Cost: 0
+	
+	[Monsters]
+	(Monsters) HP: 50 or 75, Damage: 4 to 8
+	(Bosses) HP: 125, Damage: 4 to 8
+		
+	[Settings]
+	(Auto Save) Feature to Automatically Save Game on Exit
+	
+	[Cool Features]
+	(Escape Battle) Chance: 25%
+	(Chests) Rewarded on Clearing Level: Contain Coins and Possible Gems
+
+Bug Fixes & Balancing - V1.01
+Fixed:
+	Negative Coins Issue
+	Mana Issue
+Buffed:
+	[Character HP]
+	(Wizard) Previous: 75HP - New: 125HP
+	(Knight) Previous: 125HP - New: 175HP
+	(Archer) Previous: 100HP - New: 150HP
+
+Added Attacks & More - V1.02
+Removed:
+	(Punch) Attack
+Nerfed:
+	(Melee) Damage: 20
+Added:
+	Monsters & Bosses Have a Chance to Miss Thier Attack
+	(Wizard) Fireball Attack: 30 Damage, 10 Mana Cost
+	(Knight) Spear Attack: 30 Damage, 10 Mana Cost
+	(Archer) Arrow Attack: 30 Damage, 10 Mana Cost
+
+Bug Fixes & New Implementations - V1.03
+Fixed:
+	Monster / Boss Info Not Displaying After Killed
+	After Chest is Rewarded, Player Info is Saved
+Added:
+	Secondary Attacks
+		(Knight) Sword Attack: 40 Damage, 15 Mana Cost
+		(Archer) Crossbow Attack: 40 Damage, 15 Mana Cost
+	Wizard Attack Change
+		Primary Attack - Snowball: 30 Damage, 15 Mana Cost
+		Secondary Attack - Fireball: 40 Damage, 15 Mana Cost
+
+XP System & Bug Fix - V1.10
+Fixed:
+	Monster Attacking After Death
+Added:
+	[XP | Leveling | Prestiging]
+		XP Given After Death of Monster & Boss
+		(Monster) 5XP
+		(Boss) 10XP
+		Level-Up After Reaching Required XP Count
+		Prestige After Hitting 100 Levels
+
+Bug Fixes & Upgrade Table - V1.21
+Fixed:
+	Max Xp Required to Level Up Not Being Updated
+	Level Up Not Showing On Xp Screen
+	After Attacking, Every Thing Loads Smoothly and Slowly to Allow Users to Read Clearly
+	Fixed Mana Cost: 0 Appearing, Now Doesn't Display Mana Cost if it's Equal to 0
+Added:
+	[Upgrade Table]
+	Every 5 Levels, You Receive an Upgrade Token to Spend at an Upgrade Table
+	Skills Have Not Been Implemented Yet!
+
+Shop & Guest Access - V1.3
+Added:
+	[Guest Access]
+	Now added guest access for one time users who do not want to fork the project, everything works similarly but not allowed to save progress or toggle auto-save
+	[Shop]
+	Work In Progress - Will be used to sell items for coins in the future
+	[Upgrade Table]
+	Added 4 Categories: Health Cap, Mana Cap, Coin Boost, Gem Boost
+	Still Not Functional - Will be implemented soon
+Nerfed:
+	Timings to wait for the attack to process - should be faster
+
+Upgrade Table - V1.31
+Developed:
+	[Upgrade Table]
+	The Upgrade Table is finally finished and is no longer "WIP"
+	You can upgrade a couple things in there
+	You get upgrade tokens every 5 levels to use in the Upgrade Table
+	If you feel like the prices don't make sense, please leave a comment
+
+New Additions & Efficient Tweaks - V1.32
+Added:
+	Shop: New Food Items - Still not purchasable
+	Gambling: WIP - Can not gamble
+Efficient Tweaks:
+	Now storing coins and gems in the player class
+
+Food Shop - V1.33
+Added:
+	Apples: Cost 2 Coins, Heals 20 HP
+Note:
+	Currently the food does not actually heal you, you may purchase it and store it in your backpack but it won't do anything until a future patch or update!
+
+Gambling System - V1.4
+Added:
+	Food Use in Fights
+	Backpack
+	Shop
+	Casino
+		Casino Slots Gamemode - Put in the amount of coins you want to risk, then three numbers from 1-5 are rolled: If three of the numbers are the same, you win 3x the coins, if two same numbers are the same it gives you 2x the coins and if no numbers are the same result, you gain nothing.
+
+Banking System - V1.5
+Added:
+	Bank
+		Deposit/Withdrawal - You can deposit your money into the bank and withdraw it later, this prevents you from losing coins in battle. 
+		Interest - Banks come with two different bank accounts
+			Basic: 2% Interest, Cost - 100 Coins, 5 Gems
+			Standard: 5% Interest, Cost - 250 Coins, 10 Gems
+			Premium: 10% Interest, Cost - 500 Coins & 20 Gems
+
+Optimization Update - V1.51
+Changed:
+	Code has been optimized
+Removed:
+	Foods
+	Backpacks
